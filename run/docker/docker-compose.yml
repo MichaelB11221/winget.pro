@@ -9,8 +9,8 @@ services:
       - static:/srv/static
       - media:/srv/media
       - db_files:/srv/db
-# Uncomment these lines the first time you run `docker-compose up`:
-#    environment:
+ Uncomment these lines the first time you run `docker-compose up`:
+    environment:
       - DJANGO_SUPERUSER_USERNAME=admin
       - DJANGO_SUPERUSER_EMAIL=admin@email.com
       - DJANGO_SUPERUSER_PASSWORD=Dcb@60224e478/9
